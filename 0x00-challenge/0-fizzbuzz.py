@@ -7,14 +7,10 @@ import sys
 def fizzbuzz(n):
     """
     FizzBuzz function prints numbers from 1 to n separated by a space.
+
     - For multiples of three print "Fizz" instead of the number and for
       multiples of five print "Buzz".
     - For numbers which are multiples of both three and five print "FizzBuzz".
-    **************************************************************************
-    The Code kept printing Fizz for numbers divisible by both 3 and 5 because
-    of the codition 'if (i % 3)' at the beginning. Thus the first condition must
-    be checking numbers divisible by boht 3 and 5
-    **************************************************************************
     """
     if n < 1:
         return
