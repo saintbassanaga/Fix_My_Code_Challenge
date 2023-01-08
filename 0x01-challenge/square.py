@@ -14,7 +14,8 @@ class square():
 
     def area_of_my_square(self):
         """Area of the square"""
-        """ Area of the square """
+        # width was changed to height
+        # (w*w)=> (W*h)
         return self.width * self.height
 
     def PermiterOfMySquare(self):
